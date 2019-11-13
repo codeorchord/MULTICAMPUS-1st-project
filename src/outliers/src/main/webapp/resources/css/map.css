@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/*
+ * map.css
+ */
+
+
+body {
+  font-size: .875rem;
+  background-color: #f8f9fa!important;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+.talign-ct {
+  text-align: center;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+#adv-opacity, #adv-influence {
+  width: 80%
+}
+#adv-opacity .slider-selection {
+	background: cyan;
+}
+#adv-opacity .slider-handle {
+	background: skyblue;
+}
+
+#adv-influence .slider-selection {
+	background: #FF8282;
+}
+#adv-influence .slider-handle {
+	background: red;
+}
+
+.tooltip > .tooltip-inner {background-color: rgba(0, 0, 0, 0.5);}
+
+
+
+/*
+ * Content
+ */
+[role="main"] {
+  padding-top: 133px; /* Space for fixed navbar */
+}
+
+@media (min-width: 768px) {
+  [role="main"] {
+    padding-top: 48px; /* Space for fixed navbar */
+  }
+}
+
+
+.map-control .btn-info {
+    color: #17a2b8;
+    background-color: #fff;
+    border-color: #17a2b8;
+}
+
+.map-control .btn-info:not(:disabled):not(.disabled).active, 
+.map-control .btn-info:not(:disabled):not(.disabled):active, 
+.map-control .show>.btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8; 
+}
+
+.map-control .btn-secondary {
+	color: #4e555b;
+    background-color: #fff;
+    border-color: #4e555b;
+}
+
+.map-control .btn-secondary:not(:disabled):not(.disabled).active, 
+.map-control .btn-secondary:not(:disabled):not(.disabled):active, 
+.map-control .show>.btn-secondary.dropdown-toggle {
+   	color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d; 
+}
+
+
+
+.map-control .btn-danger {
+    color: #dc3545;
+    background-color: #fff;
+    border-color: #dc3545;
+}
+
+.map-control .btn-danger:not(:disabled):not(.disabled).active, 
+.map-control .btn-danger:not(:disabled):not(.disabled):active, 
+.map-control .show>.btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #dc3545 /* #bd2130; */
+    border-color: #dc3545 /*#b21f2d; */
+}
+
+
+.map-control .btn-primary {
+	color: #007bff;
+    background-color: #fff;
+    border-color: #007bff;
+    
+}
+
+.map-control .btn-primary:not(:disabled):not(.disabled).active, 
+.map-control .btn-primary:not(:disabled):not(.disabled):active, 
+.map-control .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+#imgOverlay {
+  visibility: collapse;
+  opacity: 0.4;
+  position: absolute;
+  z-index: 3;
+}
+
+.cstm-overlay {
+	opacity: 0.4;
+}
+
+#loading {
+  visibility: collapse;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  line-height: 100vh;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#loading img {
+    width: 20%;
+}
+
+.alert {
+	display: none;
+}
+
+.meta-spot-count {
+	font-size: 16px;
+}
+.meta-spot-count .station {
+	color: blue;
+}
+
+.meta-spot-count .cctv {
+	color: magenta;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 1.23rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+.map_wrap, .map_wrap * {margin:0;padding:0;font-family:'Malgun Gothic',dotum,'돋움',sans-serif;font-size:12px;}
+.map_wrap a, .map_wrap a:hover, .map_wrap a:active{color:#000;text-decoration: none;}
+.map_wrap {position:relative;width:100%;height:500px;}
+#menu_wrap {position:absolute;top:0;left:0;bottom:0;width:250px;margin:10px 0 30px 10px;padding:5px;overflow-y:auto;background:rgba(255, 255, 255, 0.7);z-index: 1;font-size:12px;border-radius: 10px;}
+.bg_white {background:#fff;}
+#menu_wrap hr {display: block; height: 1px;border: 0; border-top: 2px solid #5F5F5F;margin:3px 0;}
+#menu_wrap .option{text-align: center;}
+#menu_wrap .option p {margin:10px 0;}  
+#menu_wrap .option button {margin-left:5px;}
+#placesList li {list-style: none;}
+#placesList .item {position:relative;border-bottom:1px solid #888;overflow: hidden;cursor: pointer;min-height: 65px;}
+#placesList .item span {display: block;margin-top:4px;}
+#placesList .item h5, #placesList .item .info {text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+#placesList .item .info{padding:10px 0 10px 55px;}
+#placesList .info .gray {color:#8a8a8a;}
+#placesList .info .jibun {padding-left:26px;background:url(http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/places_jibun.png) no-repeat;}
+#placesList .info .tel {color:#009900;}
+#placesList .item .markerbg {float:left;position:absolute;width:36px; height:37px;margin:10px 0 0 10px;background:url(http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_number_blue.png) no-repeat;}
+#placesList .item .marker_1 {background-position: 0 -10px;}
+#placesList .item .marker_2 {background-position: 0 -56px;}
+#placesList .item .marker_3 {background-position: 0 -102px}
+#placesList .item .marker_4 {background-position: 0 -148px;}
+#placesList .item .marker_5 {background-position: 0 -194px;}
+#placesList .item .marker_6 {background-position: 0 -240px;}
+#placesList .item .marker_7 {background-position: 0 -286px;}
+#placesList .item .marker_8 {background-position: 0 -332px;}
+#placesList .item .marker_9 {background-position: 0 -378px;}
+#placesList .item .marker_10 {background-position: 0 -423px;}
+#placesList .item .marker_11 {background-position: 0 -470px;}
+#placesList .item .marker_12 {background-position: 0 -516px;}
+#placesList .item .marker_13 {background-position: 0 -562px;}
+#placesList .item .marker_14 {background-position: 0 -608px;}
+#placesList .item .marker_15 {background-position: 0 -654px;}
+#pagination {margin:10px auto;text-align: center;}
+#pagination a {display:inline-block;margin-right:10px;}
+#pagination .on {font-weight: bold; cursor: default;color:#777;}
+
+.modal-dialog {
+    max-width: 600px !important;
+}
+
+.modal-content {
+  background: lavender;
+  border-radius: 30px;
+}

@@ -1,5 +1,5 @@
 # Custom
-
+src/outliers/target
 
 # Eclipse
 .settings
@@ -19,6 +19,9 @@
 
 # Compiled class file
 *.class
+
+# Spring
+.springBeans
 
 # Log file
 *.log

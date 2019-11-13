@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE mapper 
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd"
+> 
+
+<mapper namespace="lab.project.outliers.dao.IGuCrimeDAO">
+	
+	<select id="getGuCrimeByGu" resultType="GuCrimeVO" parameterType="string"> 
+		select * from prj_gucrime where gu = #{gu}
+	</select>
+	
+	<select id="getGuCrimeAll" resultType="GuCrimeVO"> 
+		select * from prj_gucrime order by year, gu desc
+	</select>
+	
+
+	
+	
+</mapper>
+
+
