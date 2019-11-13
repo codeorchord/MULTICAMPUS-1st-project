@@ -1,3 +1,22 @@
+# Custom
+
+
+# Eclipse
+.settings
+.project
+.classpath
+
+# VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# VisualStudioCode Patch
+# Ignore all local history of files
+.history
+
 # Compiled class file
 *.class
 
@@ -11,7 +30,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.nar
 *.ear
