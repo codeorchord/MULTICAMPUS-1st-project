@@ -1,5 +1,5 @@
 --------------------------------------------------------
---  ΖΔΐΟΐΜ »ύΌΊµΚ - ±έΏδΐΟ-7Ώω-26-2019   
+--  νμΌμ΄ μƒμ„±λ¨ - κΈμ”μΌ-7μ›”-26-2019   
 --------------------------------------------------------
 --------------------------------------------------------
 --  DDL for Table PRJ_AGENCIES
@@ -17,31 +17,31 @@
   TABLESPACE "USERS" ;
 REM INSERTING into HR.PRJ_AGENCIES
 SET DEFINE OFF;
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ °­³²±ΈΓ»','02-3423-6772',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ °­µΏ±ΈΓ»','02-3425-7090',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ °­ΊΟ±ΈΓ»','02-901-7266',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ °­Ό­±ΈΓ»','02-2600-1884',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ °όΎΗ±ΈΓ»','02-879-5831',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ ±¤Αψ±ΈΓ»','02-450-7678',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ ±Έ·Ξ±ΈΓ»','02-860-2114',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ ±έΓµ±ΈΓ»','02-2627-1904',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ ³λΏψ±ΈΓ»','02-2116-4917',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ µµΊΐ±ΈΓ»','02-2091-4273',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ µΏ΄λΉ®±ΈΓ»','02-2127-4084',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ µΏΐΫ±ΈΓ»','02-820-1118 ',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ Έ¶Ζχ±ΈΓ»','02-3153-8432',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ Ό­΄λΉ®±ΈΓ»','02-330-1080',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ Ό­ΓΚ±ΈΓ»','02-2155-6098',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ ΌΊµΏ±ΈΓ»','02-2286-5878',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ ΌΊΊΟ±ΈΓ»','02-2241-4562',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ ΌΫΖΔ±ΈΓ»','02-2147-3090',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ ΎηΓµ±ΈΓ»','02-2620-4793',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ ΏµµξΖχ±ΈΓ»','02-2670-4069',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ Ώλ»κ±ΈΓ»','02-2199-6662',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ ΐΊΖς±ΈΓ»','02-351-8007',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ ΑΎ·Ξ±ΈΓ»','02-2148-4301',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ Αί±ΈΓ»','02-3396-4744',null,null);
-Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('Ό­ΏοΖ―Ί°½Γ Αί¶ϋ±ΈΓ»','02-2094-0284',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ κ°•λ‚¨κµ¬μ²­','02-3423-6772',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ κ°•λ™κµ¬μ²­','02-3425-7090',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ κ°•λ¶κµ¬μ²­','02-901-7266',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ κ°•μ„κµ¬μ²­','02-2600-1884',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ κ΄€μ•…κµ¬μ²­','02-879-5831',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ κ΄‘μ§„κµ¬μ²­','02-450-7678',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ κµ¬λ΅κµ¬μ²­','02-860-2114',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ κΈμ²κµ¬μ²­','02-2627-1904',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ λ…Έμ›κµ¬μ²­','02-2116-4917',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ λ„λ΄‰κµ¬μ²­','02-2091-4273',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ λ™λ€λ¬Έκµ¬μ²­','02-2127-4084',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ λ™μ‘κµ¬μ²­','02-820-1118 ',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ λ§ν¬κµ¬μ²­','02-3153-8432',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ μ„λ€λ¬Έκµ¬μ²­','02-330-1080',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ μ„μ΄κµ¬μ²­','02-2155-6098',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ μ„±λ™κµ¬μ²­','02-2286-5878',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ μ„±λ¶κµ¬μ²­','02-2241-4562',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ μ†΅νκµ¬μ²­','02-2147-3090',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ μ–‘μ²κµ¬μ²­','02-2620-4793',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ μλ“±ν¬κµ¬μ²­','02-2670-4069',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ μ©μ‚°κµ¬μ²­','02-2199-6662',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ μ€ν‰κµ¬μ²­','02-351-8007',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ μΆ…λ΅κµ¬μ²­','02-2148-4301',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ μ¤‘κµ¬μ²­','02-3396-4744',null,null);
+Insert into HR.PRJ_AGENCIES (AGENCY_NAME,PHONE,ADD_NEW,ADD_OLD) values ('μ„μΈνΉλ³„μ‹ μ¤‘λ‘κµ¬μ²­','02-2094-0284',null,null);
 --------------------------------------------------------
 --  DDL for Index SYS_C0011170
 --------------------------------------------------------
