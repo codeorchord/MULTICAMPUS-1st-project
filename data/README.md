@@ -1,1 +1,1 @@
-ÇÁ·ÎÁ§Æ® ¶§ ¼öÁýÇÑ DB data export file (oracle¿ë)
+í”„ë¡œì íŠ¸ ë•Œ ìˆ˜ì§‘í•œ DB data export file (oracleìš©)
